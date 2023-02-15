@@ -7,6 +7,7 @@ btn.addEventListener('click', function() {
     const randomNumber = getRandomNumber(); 
     document.body.style.backgroundColor = colors[randomNumber];
     color.textContent = colors[randomNumber];
+    // changing the hex code color
     color.style.color = colors[randomNumber];
 });
 function getRandomNumber() {
