@@ -164,6 +164,7 @@ nav {
   align-items: center;
   /* box-shadow: var(--dark-shadow); */
   border-bottom: solid 3px var(--clr-black);
+  
 }
 .nav-center {
   width: 90vw;
