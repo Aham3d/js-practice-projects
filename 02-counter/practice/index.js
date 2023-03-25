@@ -7,6 +7,7 @@ btns.forEach(function(btn) {
     btn.addEventListener('click', function(e) {
         const styles = e.currentTarget.classList; 
         // console.log(styles);
+        // changing value
         if(styles.contains('decrease')) {
             count--;
         }
@@ -16,7 +17,7 @@ btns.forEach(function(btn) {
         else {
             count = 0; 
         }
-
+        // changing color
         if(count > 0) {
             value.style.color = "green"; 
         } else if (count < 0) {
