@@ -249,7 +249,8 @@ main {
     border: 2px solid var(--clr-primary-5);
     cursor: pointer;
 }
-  .random-btn:hover {
+
+.random-btn:hover {
     background: var(--clr-primary-5);
     color: var(--clr-primary-1);
 }
