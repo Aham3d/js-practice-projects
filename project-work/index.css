@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+nav {
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid black;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav ul {
+  gap: 3rem;
+  
+  display: flex;
+}
+
+.logo video {
+  z-index: 2;
+  object-fit: cover;
+  object-position: center;
+  width: 10rem;
+  height: 10rem;
+
+}
+
+.main-page {
+  background: rgb(255, 255, 255);
+  width: 100vw;
+  height: 100vh;
+}
+
+.bottom-style {
+
+}
+
+.img-car-con img {
+  /* transform: scaleX(-1); */
+  bottom: -8rem;
+  filter: grayscale(99);
+  left: 16%;
+  position: absolute;
+  z-index: 1;
+  /* width: 60rem; */
+  /* height: 30rem; */
+  transition: all 0.5s ease-in-out;
+  opacity: 98%;
+}
+
+.img-car-con img:hover {
+  filter: grayscale(0);
+  transform: translatey(-0.3rem);
+}
+
+.bottom-shape {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.bottom-shape svg {
+  position: relative;
+  display: block;
+  width: calc(275% + 1.3px);
+  height: 328px;
+}
+
+.bottom-shape .shape-fill {
+  fill: #750808ee;
+}
+
+.next-page {
+  background-color: #009EFF;
+}
